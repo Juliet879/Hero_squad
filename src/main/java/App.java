@@ -117,4 +117,3 @@ public class App {
 
     }
 }
-© 2020 GitHub, Inc.
