@@ -7,13 +7,19 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class HeroTest{
+    @After
+    public void tearDown() {
 
+    }
 
   @Test
-  public void HeroInstantiateContent_true(){
-      Hero hero = new Hero("Intro");
-      assertEquals("Intro",hero.getContent);
+  public void HeroInstantiateContent_true() throws Exception{
+      Hero hero = new Hero("Day: Intro");
+      assertEquals("Day: Intro",hero.getContent());
   }
+//  public Hero setUpNewHero(){
+//        return new Hero("Intro");
+//  }
 //
 //    @Test
 //    public void hero_getName_String() {

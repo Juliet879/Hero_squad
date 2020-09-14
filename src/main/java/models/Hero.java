@@ -13,7 +13,7 @@ public class Hero {
     private static ArrayList<Hero> instances = new ArrayList<>();
     private int id;
 
-    public Hero(String content,String name, Integer age, String power, String weakness) {
+    public Hero (String content) {
         this.content = content;
         this.name = name;
         this.age = age;
@@ -24,7 +24,7 @@ public class Hero {
     }
 
     public String getContent(){
-        return this.content;
+        return content;
     }
 //    public int getAge(){
 //        return age;
@@ -37,8 +37,9 @@ public class Hero {
 ////    }
 //    public static Hero setUpNewHero(){
 //        return new Hero("Dominic",35,"Disappearing","Ice");
+////    }
+//    public static ArrayList<Hero> getAll(){
+//        return instances;
 //    }
-    public static ArrayList<Hero> getAll(){
-        return instances;
-    }
+
 }
