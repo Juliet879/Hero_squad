@@ -1,5 +1,6 @@
 {{#partial "content"}}
-
+<div style="background-image:url('images/batman.jpg');background-repeat:no-repeat;background-size:cover; height:100%;">
+   <div style="padding:15%;">
     <h1>Add Squad!</h1>
 
     <p>Add a new new squad:</p>
@@ -8,8 +9,12 @@
         <label for="content"></label>
         <input id="content" name="content" type="text">
 
-        <button type="submit" class="btn btn-default">Add</button>
+        <a href="/squad" class="btns">Add {{ name }} To Squad</a>
+
+
     </form>
+   </div>
+</div>
 {{/partial}}
 
 {{> layout.hbs}}

@@ -52,7 +52,6 @@ public class SquadTest {
         Squad newSquad = Squad.setUpNewSquad();
         newSquad.clearAllSquadMembers();
         newSquad.getSquadMembers().add(newHero);
-        newSquad.getSquadMembers().add(newHero);
         assertEquals("Arnold", newSquad.getSquadMembers().get(0).getName());
     }
 

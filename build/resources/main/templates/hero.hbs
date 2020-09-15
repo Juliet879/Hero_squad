@@ -1,11 +1,10 @@
 {{#partial "content"}}
-    <section class="landing-pg">
+    <section class="landing-pg"style="background-image:url('images/dkspidey.jpg');background-repeat:no-repeat;background-size:cover;color:red;">
 
-        <h2> <a class="btns" href="/hero-form" >Create Your Hero</a> <br><br> CURRENT HEROES</h2>
-        <div class="heroes">
+        <h2> <a class="btns" href="/hero-form" >CREATE YOUR OWN HEROES</a> <br><br> Current Heroes</h2>
+        <div class="heroes"  style="font-size:5px;" >
             {{#each hero}}
-                <div class="hero-item">
-                    <img src="/images/jl-fl-0004.jpg" alt="">
+                <div class="hero-item" style="font-size:15px;;">
                     <p>Name: {{ name }} </p>
                     <p>Age: {{ age }}</p>
                     <p>Special power: {{ power }}</p>

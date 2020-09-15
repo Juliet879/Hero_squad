@@ -24,7 +24,7 @@ public class HeroTest {
     @Test
     public void newHero_getPower_String() {
         Hero newHero = Hero.setUpNewHero();
-        assertEquals("Disapprearing",newHero.getPower());
+        assertEquals("Dissapearing",newHero.getPower());
     }
     @Test
     public void newHero_getWeakness_String() {

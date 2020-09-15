@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="models.SquadTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-09-15T17:00:09" hostname="moringa-ThinkPad-X260" time="0.01">
+  <properties/>
+  <testcase name="addMember_addsMemberToSquad_Hero" classname="models.SquadTest" time="0.002"/>
+  <testcase name="newSquad_getPower_String" classname="models.SquadTest" time="0.0"/>
+  <testcase name="newSquad_getSquadMembers_Array" classname="models.SquadTest" time="0.001"/>
+  <testcase name="newSquad_allTestSquadMembers_Array" classname="models.SquadTest" time="0.0"/>
+  <testcase name="newSquad_getSize_Int" classname="models.SquadTest" time="0.0"/>
+  <testcase name="setNewMember_hero" classname="models.SquadTest" time="0.001"/>
+  <testcase name="newSquad_instantiatesCorrectly_true" classname="models.SquadTest" time="0.0"/>
+  <testcase name="newSquad_getName_String" classname="models.SquadTest" time="0.0"/>
+  <testcase name="newSquad_getInstances_true" classname="models.SquadTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

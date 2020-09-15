@@ -1,22 +1,18 @@
 {{#partial "content"}}
-    <section class="landing-pg">
-        <div class="land-left">
-        </div>
-        <div class="land-right">
-        </div>
+        <section class="landing-pg"style="background-image:url('images/background.webp');background-repeat:no-repeat;background-size:cover;">
+
 
         <div class="squad">
             <div id="newMember">
                 <p class="close">&cross;</p>
                 <h2>Choose Squad Members</h2>
+
                 {{#each heroes}}
-                    <div class="hero-item">
-                        <img src="/images/jl-fl-0004.jpg" alt="">
+                    <div class="hero-item" style="color:white;">
                         <div class="hero-detail">
                             <p>Name: {{name}}</p>
                             <p>Super power: {{ power }}</p>
-                            <a class="btns" href="/squad/new/{{id}}">Add To Squad</a>
-                        </div>
+                           <button> <a class="btns" href="/squad/new/{{id}}">Add To Squad</a></button>
                     </div>
                 {{/each}}
             </div>
@@ -42,7 +38,7 @@
                                 <div class="member-cont">
                                     <h5>Name: {{this.name}}</h5>
                                     <h5>Power: {{power}}</h5>
-                                    <Button class="btns">Remove</Button>
+                                    <button class="btns">Remove</button>
                                 </div>
                             {{/each}}
 
@@ -54,10 +50,9 @@
                 <h2>Please create a squad to continue</h2>
             {{/if}}
         </div>
-
+        </div>
     </section>
 {{/partial}}
 {{#partial "footer"}}
 {{/partial}}
 {{> layout.hbs}}
-© 2020 GitHub, Inc.
