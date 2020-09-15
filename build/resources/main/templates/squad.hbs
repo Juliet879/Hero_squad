@@ -1,5 +1,5 @@
 {{#partial "content"}}
-        <section class="landing-pg"style="background-image:url('images/background.webp');background-repeat:no-repeat;background-size:cover;">
+        <section class="landing-pg"style="background-image:url('images/YES.jpg');background-repeat:no-repeat;background-size:cover;padding:2%;padding-left:7%;">
 
 
         <div class="squad">
@@ -32,8 +32,7 @@
                             <p>Max participants: {{ size }}</p>
                             <br><br>
                             <h6>MEMBERS</h6>
-<!--                            <a class="btns" href="/new/member/{{squadId}}">Bind Id</a>-->
-                            <button class="addMember add-btn" style="color:black;" >Add New Member</button>
+                            <a class="btns" href="/new/member/{{squadId}}"> <button class="addMember add-btn" >Add New Member</button></a>
                             {{#each squadMembers}}
                                 <div class="member-cont">
                                     <h5>Name: {{this.name}}</h5>

@@ -1,10 +1,9 @@
 {{#partial "content"}}
-    <section class="landing-pg"style="background-image:url('images/img2.jpg');background-repeat:no-repeat;background-size:cover;color:red;">
+    <section class="landing-pg"style="background-image:url('images/last.jpg');background-repeat:no-repeat;background-size:cover;color:white;padding:6%;padding-left:40%;">
 
-        <h2> <a class="btns" href="/hero-form" >CREATE YOUR OWN HEROES</a> <br><br> Current Heroes</h2>
+        <h2 style="color:grey;"> <a class="btns" href="/hero-form" style="color:black;">CREATE YOUR OWN HEROES</a> <br><br> Current Hero</h2>
         <div class="heroes"  style="font-size:5px;" >
-            {{#each hero}}
-                <div class="hero-item" style="font-size:15px;;">
+                <div class="hero-item" style="font-size:18px;;">
                     <p>Name: {{ name }} </p>
                     <p>Age: {{ age }}</p>
                     <p>Special power: {{ power }}</p>
@@ -14,7 +13,6 @@
                     <a href="/squad" class="btns">Add {{ name }} To Squad</a>
                 </div>
 
-            {{/each}}
         </div>
     </section>
 {{/partial}}
