@@ -24,12 +24,12 @@ public class HeroTest {
     @Test
     public void newHero_getPower_String() {
         Hero newHero = Hero.setUpNewHero();
-        assertEquals("flying",newHero.getPower());
+        assertEquals("Disapprearing",newHero.getPower());
     }
     @Test
     public void newHero_getWeakness_String() {
         Hero newHero = Hero.setUpNewHero();
-        assertEquals("fire",newHero.getWeakness());
+        assertEquals("Ice",newHero.getWeakness());
     }
     @Test
     public void newHero_getAllInstances_true() {

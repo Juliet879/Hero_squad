@@ -1,7 +1,5 @@
 package models;
 
-import javax.swing.text.html.HTMLWriter;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class Hero {
@@ -47,7 +45,7 @@ public class Hero {
     {return instances.get(id-1);}
 
     public static Hero setUpNewHero(){
-        return new Hero("Arnold",23,"flying","fire");
+        return new Hero("Arnold",23,"Dissapearing","Ice");
     }
     public static Hero setUpNewHero1(){
         return new Hero("Janet",30,"Night Vision","Light");
