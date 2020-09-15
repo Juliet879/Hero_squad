@@ -1,5 +1,5 @@
 # Hero_squad
-#<img src="images/Screenshot.png">
+<img src="Screenshot.png">
 # HERO SQUAD
 Caeser_Cipher, September 15th 2020
 #### By **Juliet Gisemba**
