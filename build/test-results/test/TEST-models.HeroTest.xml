@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="models.HeroTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-09-14T07:30:28" hostname="moringa-ThinkPad-X260" time="0.002">
+<testsuite name="models.HeroTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-09-15T05:51:49" hostname="moringa-ThinkPad-X260" time="0.007">
   <properties/>
-  <testcase name="newHero_InstantiateCorrectly_true" classname="models.HeroTest" time="0.002"/>
+  <testcase name="newHero_getWeakness_String" classname="models.HeroTest" time="0.002"/>
+  <testcase name="newHero_getName_String" classname="models.HeroTest" time="0.0"/>
+  <testcase name="newHero_getId_Int" classname="models.HeroTest" time="0.0"/>
+  <testcase name="newHero_instantiatesCorrectly_true" classname="models.HeroTest" time="0.0"/>
+  <testcase name="newHero_getPower_String" classname="models.HeroTest" time="0.0"/>
+  <testcase name="newHero_getAge_Int" classname="models.HeroTest" time="0.0"/>
+  <testcase name="newHero_findById_id" classname="models.HeroTest" time="0.0"/>
+  <testcase name="newHero_getAllInstances_true" classname="models.HeroTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
